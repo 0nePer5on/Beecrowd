@@ -1,0 +1,5 @@
+num = input()
+entry = list(map(int, input().split()))
+num = min(entry)
+num = entry.index(num)
+print(num + 1)

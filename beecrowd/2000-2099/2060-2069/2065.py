@@ -1,0 +1,1 @@
+workers, client = input().split()

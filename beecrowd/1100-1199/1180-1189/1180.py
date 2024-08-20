@@ -1,0 +1,5 @@
+num = input()
+entry = list(map(int, input().split()))
+value = min(entry)
+print(f"Menor valor: {value}")
+print(f"Posicao: {entry.index(value)}")
